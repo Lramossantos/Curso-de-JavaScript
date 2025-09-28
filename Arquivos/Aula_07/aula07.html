@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 de Javascript</title>
+</head>
+<body>
+    <!-- Tabela Verdade dos Operadores Lógicos -->
+    <table border="1" cellpadding="5" cellspacing="0">
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 60%;
+        margin: 30px auto;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #fff;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      caption {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-bottom: 12px;
+        color: #333;
+        padding: 10px 0;
+      }
+      th, td {
+        padding: 12px 18px;
+        text-align: center;
+      }
+      thead {
+        background: linear-gradient(90deg, #4f8cff 0%, #38e6c5 100%);
+        color: #fff;
+      }
+      tbody tr:nth-child(even) {
+        background: #f6f8fa;
+      }
+      tbody tr:nth-child(odd) {
+        background: #eaf6ff;
+      }
+      table, th, td {
+        border: none;
+      }
+      th {
+        font-size: 1.1em;
+        letter-spacing: 1px;
+      }
+    </style>
+      <caption>Tabela Verdade dos Operadores Lógicos</caption>
+      <thead>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>A &amp;&amp; B</th>
+          <th>A || B</th>
+          <th>!A</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>true</td>
+          <td>false</td>
+        </tr>
+        <tr>
+          <td>true</td>
+          <td>false</td>
+          <td>false</td>
+          <td>true</td>
+          <td>false</td>
+        </tr>
+        <tr>
+          <td>false</td>
+          <td>true</td>
+          <td>false</td>
+          <td>true</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>false</td>
+          <td>false</td>
+          <td>false</td>
+          <td>false</td>
+          <td>true</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="aula07.js"></script>
+</body>
+</html>
